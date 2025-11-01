@@ -1,0 +1,122 @@
+[
+    {
+        "user_id": "7345478613",
+        "username": "CristianFR7",
+        "motivo": "clave_incorrecta",
+        "clave_usada": "BBGFDHBJYD",
+        "fecha_hora": "2025-10-14 00:30:31",
+        "timestamp": "2025-10-14T00:30:31.073742"
+    },
+    {
+        "user_id": "7345478613",
+        "username": "CristianFR7",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1C96C2A3F08A72EA",
+        "fecha_hora": "2025-10-14 00:30:38",
+        "timestamp": "2025-10-14T00:30:38.648353"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "E6ADD359C2F5D82B",
+        "fecha_hora": "2025-10-16 13:05:52",
+        "timestamp": "2025-10-16T13:05:52.567623"
+    },
+    {
+        "user_id": "7345478613",
+        "username": "CristianFR7",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 09:04:19",
+        "timestamp": "2025-10-25T09:04:19.656245"
+    },
+    {
+        "user_id": "6298739726",
+        "username": "Tahy78",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 09:21:38",
+        "timestamp": "2025-10-25T09:21:38.828550"
+    },
+    {
+        "user_id": "6128363751",
+        "username": "Alfre",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 09:22:31",
+        "timestamp": "2025-10-25T09:22:31.672310"
+    },
+    {
+        "user_id": "6298739726",
+        "username": "Tahy78",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 09:55:01",
+        "timestamp": "2025-10-25T09:55:01.741482"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 20:40:57",
+        "timestamp": "2025-10-25T20:40:57.795217"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 20:42:31",
+        "timestamp": "2025-10-25T20:42:31.348671"
+    },
+    {
+        "user_id": "7135189322",
+        "username": "zoro48291",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "BE07B1DC8EB0215A",
+        "fecha_hora": "2025-10-25 21:05:39",
+        "timestamp": "2025-10-25T21:05:39.357079"
+    },
+    {
+        "user_id": "6298739726",
+        "username": "Tahy78",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1108E0030C009D5E",
+        "fecha_hora": "2025-10-27 04:44:59",
+        "timestamp": "2025-10-27T04:44:59.358285"
+    },
+    {
+        "user_id": "7345478613",
+        "username": "CristianFR7",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1108E0030C009D5E",
+        "fecha_hora": "2025-10-27 04:45:13",
+        "timestamp": "2025-10-27T04:45:13.665845"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1108E0030C009D5E",
+        "fecha_hora": "2025-10-27 05:49:56",
+        "timestamp": "2025-10-27T05:49:56.735229"
+    },
+    {
+        "user_id": "6298739726",
+        "username": "Tahy78",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1108E0030C009D5E",
+        "fecha_hora": "2025-10-27 06:06:26",
+        "timestamp": "2025-10-27T06:06:26.162777"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1108E0030C009D5E",
+        "fecha_hora": "2025-10-27 06:33:36",
+        "timestamp": "2025-10-27T06:33:36.356464"
+    }
+]

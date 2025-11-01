@@ -1,0 +1,27 @@
+[BAJA]
+“El mercado no siempre premia, pero siempre enseña.”
+“Hoy no ganaste dinero… pero ganaste experiencia. Mañana la conviertes en resultados.”
+“Hasta los mejores traders tienen días rojos. Lo que los hace grandes es que siguen.”
+“Perder no significa fallar, sino que estás un paso más cerca de dominar el sistema.”
+“No es un mal día… es un buen maestro disfrazado.”
+“Hoy fue duro, pero no olvides que tu disciplina no depende del resultado.”
+“No midas tu progreso por un solo día. Mira el camino completo.”
+“A veces el mercado enseña con golpes. Apréndelo y sigue.”
+“Un día malo no define tu futuro. Tu constancia sí.”
+“Hoy no ganaste… pero no perdiste si aprendiste.”
+“El retroceso de hoy es el impulso de mañana.”
+“En el trading, el control emocional vale más que una señal perfecta.”
+
+[ALTA]
+“Hoy no ganaste por suerte, ganaste porque tu análisis fue más fuerte.”
+“Cuando aplicas la lógica y la paciencia, el mercado responde.”
+“Hoy dominaste el juego… mañana toca repetir la fórmula.”
+“Disciplina + estrategia = resultados. Hoy lo comprobaste.”
+“El que entiende las velas, no necesita adivinarlas.”
+“Hoy fuiste preciso, enfocado y controlado. Así se gana.”
+“Cada decisión con lógica te acercó a este resultado. Bien hecho.”
+“Los resultados de hoy confirman que estás operando con mentalidad de trader.”
+“Cuando tus decisiones siguen un plan, los números responden.”
+“Hoy fuiste más que trader: fuiste estratega.”
+“No es magia. Es lógica, estudio y ejecución.”
+“Hoy el mercado habló… y tú supiste escuchar.”

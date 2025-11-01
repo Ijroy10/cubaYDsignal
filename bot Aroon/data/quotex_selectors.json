@@ -1,0 +1,11 @@
+{
+  "_info": "Edita estos selectores CSS según el DOM real de Quotex /trade. Sirven para verificar visualmente que el dashboard está cargado.",
+  "balance": {
+    "description": "Elemento que muestra el balance disponible en el dashboard",
+    "selector": ".balance__amount, [data-testid='balance-amount']"
+  },
+  "trade": {
+    "description": "Contenedor o botón principal para abrir una nueva operación",
+    "selector": ".trade-controls, [data-testid='new-trade-button']"
+  }
+}

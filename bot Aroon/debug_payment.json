@@ -1,0 +1,728 @@
+{
+  "Cardano (OTC)": {
+    "turbo_payment": "89",
+    "payment": "89",
+    "profit": "{'1M': 89, '5M': 87}",
+    "open": "True"
+  },
+  "Aptos (OTC)": {
+    "turbo_payment": "92",
+    "payment": "92",
+    "profit": "{'1M': 92, '5M': 93}",
+    "open": "True"
+  },
+  "Arbitrum (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Cosmos (OTC)": {
+    "turbo_payment": "69",
+    "payment": "69",
+    "profit": "{'1M': 69, '5M': 31}",
+    "open": "True"
+  },
+  "AUD/CAD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "AUD/CAD (OTC)": {
+    "turbo_payment": "76",
+    "payment": "76",
+    "profit": "{'1M': 76, '5M': 76}",
+    "open": "True"
+  },
+  "AUD/CHF": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "AUD/CHF (OTC)": {
+    "turbo_payment": "86",
+    "payment": "86",
+    "profit": "{'1M': 86, '5M': 87}",
+    "open": "True"
+  },
+  "AUD/JPY": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "AUD/JPY (OTC)": {
+    "turbo_payment": "89",
+    "payment": "89",
+    "profit": "{'1M': 89, '5M': 89}",
+    "open": "True"
+  },
+  "AUD/NZD (OTC)": {
+    "turbo_payment": "89",
+    "payment": "89",
+    "profit": "{'1M': 89, '5M': 63}",
+    "open": "True"
+  },
+  "AUD/USD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "AUD/USD (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "Avalanche (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "S&P/ASX 200": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "American Express (OTC)": {
+    "turbo_payment": "86",
+    "payment": "86",
+    "profit": "{'1M': 86, '5M': 81}",
+    "open": "True"
+  },
+  "Axie Infinity (OTC)": {
+    "turbo_payment": "64",
+    "payment": "64",
+    "profit": "{'1M': 64, '5M': 66}",
+    "open": "True"
+  },
+  "Boeing Company (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "Bitcoin Cash (OTC)": {
+    "turbo_payment": "85",
+    "payment": "85",
+    "profit": "{'1M': 85, '5M': 68}",
+    "open": "True"
+  },
+  "Beam (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Binance Coin (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Bonk (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 61}",
+    "open": "True"
+  },
+  "USD/BRL (OTC)": {
+    "turbo_payment": "78",
+    "payment": "78",
+    "profit": "{'1M': 78, '5M': 78}",
+    "open": "True"
+  },
+  "Bitcoin (OTC)": {
+    "turbo_payment": "85",
+    "payment": "85",
+    "profit": "{'1M': 85, '5M': 92}",
+    "open": "True"
+  },
+  "CAD/CHF (OTC)": {
+    "turbo_payment": "79",
+    "payment": "79",
+    "profit": "{'1M': 79, '5M': 78}",
+    "open": "True"
+  },
+  "CAD/JPY": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "CAD/JPY (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 75}",
+    "open": "True"
+  },
+  "CHF/JPY": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "CHF/JPY (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "FTSE China A50 Index": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Dash (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 72}",
+    "open": "True"
+  },
+  "Dow Jones": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Dogecoin (OTC)": {
+    "turbo_payment": "76",
+    "payment": "76",
+    "profit": "{'1M': 76, '5M': 82}",
+    "open": "True"
+  },
+  "Polkadot (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Ethereum Classic (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Ethereum (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "EUR/AUD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "EUR/AUD (OTC)": {
+    "turbo_payment": "85",
+    "payment": "85",
+    "profit": "{'1M': 85, '5M': 90}",
+    "open": "True"
+  },
+  "EUR/CAD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "EUR/CAD (OTC)": {
+    "turbo_payment": "83",
+    "payment": "83",
+    "profit": "{'1M': 83, '5M': 92}",
+    "open": "True"
+  },
+  "EUR/CHF": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "EUR/CHF (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "EUR/GBP": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "EUR/GBP (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "EUR/JPY": {
+    "turbo_payment": "30",
+    "payment": "30",
+    "profit": "{'1M': 30, '5M': 30}",
+    "open": "False"
+  },
+  "EUR/JPY (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 81}",
+    "open": "True"
+  },
+  "EUR/NZD (OTC)": {
+    "turbo_payment": "77",
+    "payment": "77",
+    "profit": "{'1M': 77, '5M': 74}",
+    "open": "True"
+  },
+  "EUR/SGD (OTC)": {
+    "turbo_payment": "75",
+    "payment": "75",
+    "profit": "{'1M': 75, '5M': 90}",
+    "open": "True"
+  },
+  "EUR/USD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "EUR/USD (OTC)": {
+    "turbo_payment": "89",
+    "payment": "89",
+    "profit": "{'1M': 89, '5M': 80}",
+    "open": "True"
+  },
+  "CAC 40": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "FACEBOOK INC (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Floki (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "FTSE 100": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Gala (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "GBP/AUD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "GBP/AUD (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 93}",
+    "open": "True"
+  },
+  "GBP/CAD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "GBP/CAD (OTC)": {
+    "turbo_payment": "90",
+    "payment": "90",
+    "profit": "{'1M': 90, '5M': 86}",
+    "open": "True"
+  },
+  "GBP/CHF": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "GBP/CHF (OTC)": {
+    "turbo_payment": "74",
+    "payment": "74",
+    "profit": "{'1M': 74, '5M': 80}",
+    "open": "True"
+  },
+  "GBP/JPY": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "GBP/JPY (OTC)": {
+    "turbo_payment": "86",
+    "payment": "86",
+    "profit": "{'1M': 86, '5M': 87}",
+    "open": "True"
+  },
+  "GBP/NZD (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 73}",
+    "open": "True"
+  },
+  "GBP/USD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "GBP/USD (OTC)": {
+    "turbo_payment": "42",
+    "payment": "42",
+    "profit": "{'1M': 42, '5M': 48}",
+    "open": "True"
+  },
+  "Hamster Kombat (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Hong Kong 50": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "IBEX 35": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Intel (OTC)": {
+    "turbo_payment": "88",
+    "payment": "88",
+    "profit": "{'1M': 88, '5M': 80}",
+    "open": "False"
+  },
+  "Johnson & Johnson (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 87}",
+    "open": "False"
+  },
+  "Nikkei 225": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Chainlink (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Litecoin (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Decentraland (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "McDonald's (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 80}",
+    "open": "True"
+  },
+  "Melania Meme (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Microsoft (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 80}",
+    "open": "True"
+  },
+  "NASDAQ 100": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Notcoin (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "NZD/CAD (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "NZD/CHF (OTC)": {
+    "turbo_payment": "83",
+    "payment": "83",
+    "profit": "{'1M': 83, '5M': 85}",
+    "open": "True"
+  },
+  "NZD/JPY (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "NZD/USD (OTC)": {
+    "turbo_payment": "66",
+    "payment": "66",
+    "profit": "{'1M': 66, '5M': 81}",
+    "open": "True"
+  },
+  "Pepe (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Pfizer Inc (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "Shiba Inu (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Solana (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "EURO STOXX 50": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Celestia (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Toncoin (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Trump (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "TRON (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "UKBrent (OTC)": {
+    "turbo_payment": "81",
+    "payment": "81",
+    "profit": "{'1M': 81, '5M': 88}",
+    "open": "True"
+  },
+  "USCrude (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 88}",
+    "open": "True"
+  },
+  "USD/ARS (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "USD/BDT (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "USD/CAD": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "USD/CAD (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "USD/CHF": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "USD/CHF (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 92}",
+    "open": "True"
+  },
+  "USD/COP (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "USD/DZD (OTC)": {
+    "turbo_payment": "90",
+    "payment": "90",
+    "profit": "{'1M': 90, '5M': 93}",
+    "open": "True"
+  },
+  "USD/EGP (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 93}",
+    "open": "True"
+  },
+  "USD/IDR (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "USD/INR (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "USD/JPY": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "USD/JPY (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 84}",
+    "open": "True"
+  },
+  "USD/MXN (OTC)": {
+    "turbo_payment": "78",
+    "payment": "78",
+    "profit": "{'1M': 78, '5M': 78}",
+    "open": "True"
+  },
+  "USD/NGN (OTC)": {
+    "turbo_payment": "80",
+    "payment": "80",
+    "profit": "{'1M': 80, '5M': 80}",
+    "open": "True"
+  },
+  "USD/PHP (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 80}",
+    "open": "True"
+  },
+  "USD/PKR (OTC)": {
+    "turbo_payment": "89",
+    "payment": "89",
+    "profit": "{'1M': 89, '5M': 93}",
+    "open": "True"
+  },
+  "USD/TRY (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "USD/ZAR (OTC)": {
+    "turbo_payment": "60",
+    "payment": "60",
+    "profit": "{'1M': 60, '5M': 75}",
+    "open": "True"
+  },
+  "Dogwifhat (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Silver": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Silver (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 80}",
+    "open": "True"
+  },
+  "Gold": {
+    "turbo_payment": "20",
+    "payment": "20",
+    "profit": "{'1M': 20, '5M': 20}",
+    "open": "False"
+  },
+  "Gold (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 80}",
+    "open": "True"
+  },
+  "Ripple (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  },
+  "Zcash (OTC)": {
+    "turbo_payment": "93",
+    "payment": "93",
+    "profit": "{'1M': 93, '5M': 93}",
+    "open": "True"
+  }
+}

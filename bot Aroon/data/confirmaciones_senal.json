@@ -1,0 +1,354 @@
+[
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251024202125",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-24T20:21:36.544092"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251024202922",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-24T20:30:14.235245"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251024204204",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-24T20:42:24.121239"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251025090340",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:04:28.353277"
+  },
+  {
+    "user_id": "6128363751",
+    "username": "Alfre",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:27:12.400028"
+  },
+  {
+    "user_id": "6298739726",
+    "username": "Tahy78",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:27:15.143979"
+  },
+  {
+    "user_id": "6128363751",
+    "username": "Alfre",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:27:24.056487"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:27:42.488533"
+  },
+  {
+    "user_id": "6128363751",
+    "username": "Alfre",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:27:56.818639"
+  },
+  {
+    "user_id": "7345478613",
+    "username": "CristianFR7",
+    "presenal_id": "None",
+    "senal_id": "20251025094155",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:42:03.905096"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251025094155",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T09:43:29.149553"
+  },
+  {
+    "user_id": "6298739726",
+    "username": "Tahy78",
+    "presenal_id": "None",
+    "senal_id": "20251025092704",
+    "estado": "rechazada",
+    "fecha_hora": "2025-10-25T09:43:45.784414"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251025212041",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T21:20:58.431995"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251025212041",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T21:21:13.089148"
+  },
+  {
+    "user_id": "6298739726",
+    "username": "Tahy78",
+    "presenal_id": "None",
+    "senal_id": "20251025212733",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T21:27:48.649718"
+  },
+  {
+    "user_id": "7135189322",
+    "username": "zoro48291",
+    "presenal_id": "None",
+    "senal_id": "20251025212733",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-25T21:27:56.537465"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251026112814",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-26T11:28:18.615158"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251026113429",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-26T11:34:45.710139"
+  },
+  {
+    "user_id": "7345478613",
+    "username": "CristianFR7",
+    "presenal_id": "None",
+    "senal_id": "20251027044518",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T04:45:34.967955"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027044518",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T04:45:52.461295"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027050013",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:00:44.430965"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027050627",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:06:34.244501"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027051242",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:12:55.607934"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027052526",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:25:34.076186"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027054011",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:40:14.774000"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027055515",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:55:18.558151"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027055515",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T05:55:26.251373"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027060635",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:06:41.059019"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027060635",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:06:42.864405"
+  },
+  {
+    "user_id": "6298739726",
+    "username": "Tahy78",
+    "presenal_id": "None",
+    "senal_id": "20251027060635",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:07:27.756438"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027062124",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:21:27.922659"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027062124",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:21:29.406507"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027063626",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:36:32.054601"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027063626",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:36:36.067668"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027064841",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:48:57.036433"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027064841",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:48:59.332753"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027065634",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:56:48.035615"
+  },
+  {
+    "user_id": "1642511083",
+    "username": "JAROLVEGA",
+    "presenal_id": "None",
+    "senal_id": "20251027065634",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T06:56:49.553154"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027160336",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T16:03:46.237721"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027161400",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T16:14:06.384595"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251027162259",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-27T16:23:38.292275"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251028063830",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-28T06:38:34.686524"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251028064618",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-28T06:46:23.273665"
+  },
+  {
+    "user_id": "5806367733",
+    "username": "Ijroy10",
+    "presenal_id": "None",
+    "senal_id": "20251028071015",
+    "estado": "aceptada",
+    "fecha_hora": "2025-10-28T07:10:20.014405"
+  }
+]

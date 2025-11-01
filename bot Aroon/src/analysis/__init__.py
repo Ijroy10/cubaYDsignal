@@ -1,0 +1,1 @@
+"""Módulo analysis: algoritmos de IA y métricas de efectividad."""

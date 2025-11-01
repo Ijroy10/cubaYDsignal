@@ -1,0 +1,281 @@
+2025-09-15 11:06:33,388 - __main__ - INFO - 🔍 Verificando configuración del sistema...
+2025-09-15 11:06:33,390 - __main__ - INFO - ✅ Configuración verificada correctamente
+2025-09-15 11:06:34,896 - __main__ - INFO - ✅ Bot de Telegram inicializado
+2025-09-15 11:06:34,933 - __main__ - ERROR - ❌ Error inicializando CloudScraper: Session.__init__() got an unexpected keyword argument 'enable_stealth'
+2025-09-15 11:06:36,292 - __main__ - INFO - ✅ quotexpy importado correctamente
+2025-09-15 11:06:37,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8163922521:AAHv5IPZlLZnjEM77BH2fYPsIQznemVRG-Y/sendMessage "HTTP/1.1 200 OK"
+2025-09-15 11:06:37,554 - __main__ - INFO - 🔄 Conectando a Quotex...
+2025-09-15 11:06:37,554 - __main__ - INFO - 🔄 Conectando a Quotex con bypass Cloudflare...
+2025-09-15 11:06:37,555 - __main__ - INFO - 🔄 Intento 1/5
+2025-09-15 11:06:37,556 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:06:48,195 - __main__ - ERROR - ❌ Error en intento 1: <urlopen error retrieval incomplete: got only 934344 out of 9273696 bytes>
+2025-09-15 11:06:51,260 - __main__ - INFO - 🔄 Intento 2/5
+2025-09-15 11:06:51,263 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:06:55,095 - __main__ - INFO - 🔍 Verificando configuración del sistema...
+2025-09-15 11:06:55,096 - __main__ - INFO - ✅ Configuración verificada correctamente
+2025-09-15 11:06:56,149 - __main__ - INFO - ✅ Bot de Telegram inicializado
+2025-09-15 11:06:56,162 - __main__ - ERROR - ❌ Error inicializando CloudScraper: Session.__init__() got an unexpected keyword argument 'enable_stealth'
+2025-09-15 11:06:56,850 - __main__ - INFO - ✅ quotexpy importado correctamente
+2025-09-15 11:07:02,708 - __main__ - ERROR - ❌ Error enviando mensaje Telegram: Timed out
+2025-09-15 11:07:02,710 - __main__ - INFO - 🔄 Conectando a Quotex...
+2025-09-15 11:07:02,710 - __main__ - INFO - 🔄 Conectando a Quotex con bypass Cloudflare...
+2025-09-15 11:07:02,710 - __main__ - INFO - 🔄 Intento 1/5
+2025-09-15 11:07:02,712 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:08:49,189 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\tahiyana\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-09-15 11:08:59,962 - uc - INFO - setting properties for headless
+2025-09-15 11:09:49,710 - __main__ - ERROR - ❌ Error en intento 1: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Users\\tahiyana\\appdata\\roaming\\undetected_chromedriver\\undetected\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\tahiyana\\appdata\\roaming\\undetected_chromedriver\\undetected_chromedriver.exe'
+2025-09-15 11:09:52,725 - __main__ - INFO - 🔄 Intento 2/5
+2025-09-15 11:09:52,727 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:09:52,783 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:09:54,636 - uc - INFO - setting properties for headless
+2025-09-15 11:09:59,999 - __main__ - ERROR - ❌ Error en intento 2: Message: timeout: Timed out receiving message from renderer: 57.113
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0xc1d2a3+66419]
+	GetHandleVerifier [0x0xc1d2e4+66484]
+	(No symbol) [0x0x9f4bd3]
+	(No symbol) [0x0x9e5404]
+	(No symbol) [0x0x9e513a]
+	(No symbol) [0x0x9e3040]
+	(No symbol) [0x0x9e3b27]
+	(No symbol) [0x0x9f074e]
+	(No symbol) [0x0xa020f5]
+	(No symbol) [0x0xa07c96]
+	(No symbol) [0x0x9e41a6]
+	(No symbol) [0x0xa01eaa]
+	(No symbol) [0x0xa82bd9]
+	(No symbol) [0x0xa60e16]
+	(No symbol) [0x0xa325ce]
+	(No symbol) [0x0xa334a4]
+	GetHandleVerifier [0x0xe65ee3+2461619]
+	GetHandleVerifier [0x0xe60f66+2441270]
+	GetHandleVerifier [0x0xc46242+234258]
+	GetHandleVerifier [0x0xc36208+168664]
+	GetHandleVerifier [0x0xc3d1ad+197245]
+	GetHandleVerifier [0x0xc255f8+100040]
+	GetHandleVerifier [0x0xc25792+100450]
+	GetHandleVerifier [0x0xc0f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:10:03,011 - __main__ - INFO - 🔄 Intento 3/5
+2025-09-15 11:10:03,013 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:10:03,069 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:10:05,089 - uc - INFO - setting properties for headless
+2025-09-15 11:10:45,413 - __main__ - ERROR - ❌ Error en intento 2: Message: element not interactable
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0xc1d2a3+66419]
+	GetHandleVerifier [0x0xc1d2e4+66484]
+	(No symbol) [0x0x9f4a20]
+	(No symbol) [0x0xa391e2]
+	(No symbol) [0x0xa378a4]
+	(No symbol) [0x0xa6101c]
+	(No symbol) [0x0xa33e24]
+	(No symbol) [0x0xa611d4]
+	(No symbol) [0x0xa828a1]
+	(No symbol) [0x0xa60e16]
+	(No symbol) [0x0xa325ce]
+	(No symbol) [0x0xa334a4]
+	GetHandleVerifier [0x0xe65ee3+2461619]
+	GetHandleVerifier [0x0xe60f66+2441270]
+	GetHandleVerifier [0x0xc46242+234258]
+	GetHandleVerifier [0x0xc36208+168664]
+	GetHandleVerifier [0x0xc3d1ad+197245]
+	GetHandleVerifier [0x0xc255f8+100040]
+	GetHandleVerifier [0x0xc25792+100450]
+	GetHandleVerifier [0x0xc0f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:10:48,419 - __main__ - INFO - 🔄 Intento 3/5
+2025-09-15 11:10:48,420 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:10:48,463 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:10:50,928 - uc - INFO - setting properties for headless
+2025-09-15 11:11:05,182 - __main__ - ERROR - ❌ Error en intento 3: Message: timeout: Timed out receiving message from renderer: 55.341
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0xc1d2a3+66419]
+	GetHandleVerifier [0x0xc1d2e4+66484]
+	(No symbol) [0x0x9f4bd3]
+	(No symbol) [0x0x9e5404]
+	(No symbol) [0x0x9e513a]
+	(No symbol) [0x0x9e3040]
+	(No symbol) [0x0x9e3b27]
+	(No symbol) [0x0x9f074e]
+	(No symbol) [0x0xa020f5]
+	(No symbol) [0x0xa07c96]
+	(No symbol) [0x0x9e41a6]
+	(No symbol) [0x0xa01eaa]
+	(No symbol) [0x0xa82bd9]
+	(No symbol) [0x0xa60e16]
+	(No symbol) [0x0xa325ce]
+	(No symbol) [0x0xa334a4]
+	GetHandleVerifier [0x0xe65ee3+2461619]
+	GetHandleVerifier [0x0xe60f66+2441270]
+	GetHandleVerifier [0x0xc46242+234258]
+	GetHandleVerifier [0x0xc36208+168664]
+	GetHandleVerifier [0x0xc3d1ad+197245]
+	GetHandleVerifier [0x0xc255f8+100040]
+	GetHandleVerifier [0x0xc25792+100450]
+	GetHandleVerifier [0x0xc0f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:11:08,194 - __main__ - INFO - 🔄 Intento 4/5
+2025-09-15 11:11:08,194 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:11:08,211 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:11:10,257 - uc - INFO - setting properties for headless
+2025-09-15 11:11:32,560 - uc - INFO - ensuring close
+2025-09-15 11:11:32,561 - uc - INFO - ensuring close
+2025-09-15 11:11:32,561 - uc - INFO - ensuring close
+2025-09-15 11:11:43,896 - __main__ - ERROR - ❌ Error en intento 4: Message: element not interactable
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0xc1d2a3+66419]
+	GetHandleVerifier [0x0xc1d2e4+66484]
+	(No symbol) [0x0x9f4a20]
+	(No symbol) [0x0xa391e2]
+	(No symbol) [0x0xa378a4]
+	(No symbol) [0x0xa6101c]
+	(No symbol) [0x0xa33e24]
+	(No symbol) [0x0xa611d4]
+	(No symbol) [0x0xa828a1]
+	(No symbol) [0x0xa60e16]
+	(No symbol) [0x0xa325ce]
+	(No symbol) [0x0xa334a4]
+	GetHandleVerifier [0x0xe65ee3+2461619]
+	GetHandleVerifier [0x0xe60f66+2441270]
+	GetHandleVerifier [0x0xc46242+234258]
+	GetHandleVerifier [0x0xc36208+168664]
+	GetHandleVerifier [0x0xc3d1ad+197245]
+	GetHandleVerifier [0x0xc255f8+100040]
+	GetHandleVerifier [0x0xc25792+100450]
+	GetHandleVerifier [0x0xc0f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:11:46,901 - __main__ - INFO - 🔄 Intento 5/5
+2025-09-15 11:11:46,902 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:11:46,943 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:11:49,058 - uc - INFO - setting properties for headless
+2025-09-15 11:12:49,122 - __main__ - ERROR - ❌ Error en intento 5: Message: timeout: Timed out receiving message from renderer: 56.870
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0xc1d2a3+66419]
+	GetHandleVerifier [0x0xc1d2e4+66484]
+	(No symbol) [0x0x9f4bd3]
+	(No symbol) [0x0x9e5404]
+	(No symbol) [0x0x9e513a]
+	(No symbol) [0x0x9e3040]
+	(No symbol) [0x0x9e3b27]
+	(No symbol) [0x0x9f074e]
+	(No symbol) [0x0xa020f5]
+	(No symbol) [0x0xa07c96]
+	(No symbol) [0x0x9e41a6]
+	(No symbol) [0x0xa01eaa]
+	(No symbol) [0x0xa82bd9]
+	(No symbol) [0x0xa60e16]
+	(No symbol) [0x0xa325ce]
+	(No symbol) [0x0xa334a4]
+	GetHandleVerifier [0x0xe65ee3+2461619]
+	GetHandleVerifier [0x0xe60f66+2441270]
+	GetHandleVerifier [0x0xc46242+234258]
+	GetHandleVerifier [0x0xc36208+168664]
+	GetHandleVerifier [0x0xc3d1ad+197245]
+	GetHandleVerifier [0x0xc255f8+100040]
+	GetHandleVerifier [0x0xc25792+100450]
+	GetHandleVerifier [0x0xc0f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:12:52,141 - __main__ - ERROR - ❌ No se pudo conectar después de todos los intentos
+2025-09-15 11:12:52,142 - __main__ - ERROR - ❌ No se pudo conectar a Quotex
+2025-09-15 11:12:52,154 - uc - INFO - ensuring close
+2025-09-15 11:12:52,155 - uc - INFO - ensuring close
+2025-09-15 11:12:52,156 - uc - INFO - ensuring close
+2025-09-15 11:12:52,158 - uc - INFO - ensuring close
+2025-09-15 11:12:52,159 - uc - INFO - ensuring close
+2025-09-15 11:16:23,774 - __main__ - INFO - 🔍 Verificando configuración del sistema...
+2025-09-15 11:16:23,775 - __main__ - INFO - ✅ Configuración verificada correctamente
+2025-09-15 11:16:24,615 - __main__ - INFO - ✅ Bot de Telegram inicializado
+2025-09-15 11:16:24,622 - __main__ - ERROR - ❌ Error inicializando CloudScraper: Session.__init__() got an unexpected keyword argument 'enable_stealth'
+2025-09-15 11:16:25,512 - __main__ - INFO - ✅ quotexpy importado correctamente
+2025-09-15 11:16:27,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8163922521:AAHv5IPZlLZnjEM77BH2fYPsIQznemVRG-Y/sendMessage "HTTP/1.1 200 OK"
+2025-09-15 11:16:27,904 - __main__ - INFO - 🔄 Conectando a Quotex...
+2025-09-15 11:16:27,905 - __main__ - INFO - 🔄 Conectando a Quotex con bypass Cloudflare...
+2025-09-15 11:16:27,906 - __main__ - INFO - 🔄 Intento 1/5
+2025-09-15 11:16:27,907 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:17:49,893 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\tahiyana\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-09-15 11:17:56,603 - uc - INFO - setting properties for headless
+2025-09-15 11:21:06,869 - __main__ - ERROR - ❌ Error en intento 1: No se pudo encontrar el campo de email
+2025-09-15 11:21:09,878 - __main__ - INFO - 🔄 Intento 2/5
+2025-09-15 11:21:09,880 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:21:09,920 - uc - WARNING - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-09-15 11:21:11,797 - uc - INFO - setting properties for headless
+2025-09-15 11:21:41,743 - uc - INFO - ensuring close
+2025-09-15 11:21:41,745 - uc - INFO - ensuring close
+2025-09-15 11:35:54,425 - __main__ - INFO - 🔍 Verificando configuración del sistema...
+2025-09-15 11:35:54,426 - __main__ - INFO - ✅ Configuración verificada correctamente
+2025-09-15 11:35:55,495 - __main__ - INFO - ✅ Bot de Telegram inicializado
+2025-09-15 11:35:55,806 - __main__ - INFO - ✅ CloudScraper inicializado correctamente
+2025-09-15 11:35:57,123 - __main__ - INFO - ✅ quotexpy importado correctamente
+2025-09-15 11:35:59,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8163922521:AAHv5IPZlLZnjEM77BH2fYPsIQznemVRG-Y/sendMessage "HTTP/1.1 200 OK"
+2025-09-15 11:35:59,214 - __main__ - INFO - 🔄 Conectando a Quotex...
+2025-09-15 11:35:59,214 - __main__ - INFO - 🔄 Iniciando conexión híbrida a Quotex...
+2025-09-15 11:35:59,215 - __main__ - INFO - 🤖 Intentando login AUTOMÁTICO...
+2025-09-15 11:35:59,216 - __main__ - INFO - 🤖 Intentando conexión automática...
+2025-09-15 11:35:59,217 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:38:15,364 - undetected_chromedriver.patcher - INFO - patching driver executable C:\Users\tahiyana\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-09-15 11:38:23,751 - uc - INFO - setting properties for headless
+2025-09-15 11:39:23,784 - __main__ - ERROR - ❌ Error en login automático: Message: timeout: Timed out receiving message from renderer: 57.541
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0xd9d2a3+66419]
+	GetHandleVerifier [0x0xd9d2e4+66484]
+	(No symbol) [0x0xb74bd3]
+	(No symbol) [0x0xb65404]
+	(No symbol) [0x0xb6513a]
+	(No symbol) [0x0xb63040]
+	(No symbol) [0x0xb63b27]
+	(No symbol) [0x0xb7074e]
+	(No symbol) [0x0xb820f5]
+	(No symbol) [0x0xb87c96]
+	(No symbol) [0x0xb641a6]
+	(No symbol) [0x0xb81eaa]
+	(No symbol) [0x0xc02bd9]
+	(No symbol) [0x0xbe0e16]
+	(No symbol) [0x0xbb25ce]
+	(No symbol) [0x0xbb34a4]
+	GetHandleVerifier [0x0xfe5ee3+2461619]
+	GetHandleVerifier [0x0xfe0f66+2441270]
+	GetHandleVerifier [0x0xdc6242+234258]
+	GetHandleVerifier [0x0xdb6208+168664]
+	GetHandleVerifier [0x0xdbd1ad+197245]
+	GetHandleVerifier [0x0xda55f8+100040]
+	GetHandleVerifier [0x0xda5792+100450]
+	GetHandleVerifier [0x0xd8f74a+10266]
+	BaseThreadInitThunk [0x0x7707fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77dc827e+238]
+
+2025-09-15 11:39:23,792 - __main__ - INFO - 📊 Login automático: ❌ Fallo
+2025-09-15 11:39:23,793 - __main__ - INFO - 🔄 Login automático falló, cambiando a MANUAL...
+2025-09-15 11:39:23,794 - __main__ - INFO - 👤 Configurando login manual...
+2025-09-15 11:39:23,795 - __main__ - INFO - 🌐 Abriendo ventana de Quotex...
+2025-09-15 11:39:23,796 - __main__ - INFO - 👤 POR FAVOR:
+2025-09-15 11:39:23,796 - __main__ - INFO -    1. Se abrirá una ventana de Chrome
+2025-09-15 11:39:23,796 - __main__ - INFO -    2. Haz login manualmente en Quotex
+2025-09-15 11:39:23,797 - __main__ - INFO -    3. Navega a la página de trading (/trade)
+2025-09-15 11:39:23,798 - __main__ - INFO -    4. El bot detectará automáticamente cuando estés listo
+2025-09-15 11:39:23,799 - quotexpy.api - INFO - authenticating user
+2025-09-15 11:45:50,683 - __main__ - ERROR - ❌ Error en login manual: No se pudo encontrar el campo de email
+2025-09-15 11:45:50,683 - __main__ - INFO - 📊 Login manual: ❌ Fallo
+2025-09-15 11:45:50,683 - __main__ - ERROR - ❌ No se pudo conectar a Quotex
+2025-09-15 11:45:50,692 - uc - INFO - ensuring close
+2025-09-15 11:45:50,695 - uc - INFO - ensuring close

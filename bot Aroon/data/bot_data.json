@@ -1,0 +1,17 @@
+{
+  "daily_key": "",
+  "daily_key_date": "",
+  "active_users": {},
+  "daily_signals": [
+    {
+      "number": 1,
+      "time": "06:57",
+      "symbol": "EURUSD",
+      "direction": "CALL",
+      "effectiveness": 93.48472195815029,
+      "payout": 86.16292370330655
+    }
+  ],
+  "signal_counter": 1,
+  "last_updated": "2025-08-06T06:57:35.486539"
+}

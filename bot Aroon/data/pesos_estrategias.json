@@ -1,0 +1,8 @@
+{
+    "tendencia": 0.25,
+    "soportes_resistencias": 0.25,
+    "patrones_velas": 0.2,
+    "volatilidad": 0.15,
+    "volumen": 0.1,
+    "pullback": 0.05
+}
