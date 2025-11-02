@@ -7,6 +7,50 @@
             "clave_usada": "ADMIN_ID",
             "se\u00f1ales_recibidas": 31,
             "es_tardio": false
+        },
+        "6298739726": {
+            "username": "Tahy78",
+            "tipo": "usuario",
+            "hora_ingreso": "18:03",
+            "clave_usada": "1664A0A659FB3DBA",
+            "se\u00f1ales_recibidas": 0,
+            "es_tardio": true,
+            "autorizado_por": "no_lista_diaria",
+            "motivo_autorizacion": "no_lista_diaria",
+            "en_lista_diaria": false
+        },
+        "6128363751": {
+            "username": "Alfre",
+            "tipo": "usuario",
+            "hora_ingreso": "18:13",
+            "clave_usada": "1664A0A659FB3DBA",
+            "se\u00f1ales_recibidas": 0,
+            "es_tardio": true,
+            "autorizado_por": "no_lista_diaria",
+            "motivo_autorizacion": "no_lista_diaria",
+            "en_lista_diaria": false
+        },
+        "7135189322": {
+            "username": "zoro48291",
+            "tipo": "usuario",
+            "hora_ingreso": "18:14",
+            "clave_usada": "1664A0A659FB3DBA",
+            "se\u00f1ales_recibidas": 0,
+            "es_tardio": true,
+            "autorizado_por": "no_lista_diaria",
+            "motivo_autorizacion": "no_lista_diaria",
+            "en_lista_diaria": false
+        },
+        "1642511083": {
+            "username": "JAROLVEGA",
+            "tipo": "usuario",
+            "hora_ingreso": "18:22",
+            "clave_usada": "1664A0A659FB3DBA",
+            "se\u00f1ales_recibidas": 0,
+            "es_tardio": true,
+            "autorizado_por": "no_lista_diaria",
+            "motivo_autorizacion": "no_lista_diaria",
+            "en_lista_diaria": false
         }
     },
     "usuarios_bloqueados": [],
@@ -32,8 +76,8 @@
             "timestamp": "2025-08-11T07:20:51.073277"
         }
     ],
-    "clave_publica_diaria": "EA724570BC4FF0DA",
-    "fecha_clave_actual": "2025-10-28",
+    "clave_publica_diaria": "1664A0A659FB3DBA",
+    "fecha_clave_actual": "2025-11-01",
     "se\u00f1ales_del_dia": [
         {
             "numero": 1,
@@ -1023,12 +1067,12 @@
     ],
     "estadisticas_diarias": {
         "fecha": "2025-08-12",
-        "total_usuarios": 16,
-        "usuarios_tardios": 10,
+        "total_usuarios": 20,
+        "usuarios_tardios": 14,
         "se\u00f1ales_enviadas": 31,
         "efectividad_promedio": 0,
         "hora_inicio": null,
         "hora_fin": null
     },
-    "ultima_actualizacion": "2025-10-28T07:10:16.027981"
+    "ultima_actualizacion": "2025-11-01T18:22:39.273672"
 }

@@ -1,9 +1,11 @@
 """
-SISTEMA DE PROGRAMACIÓN DE SEÑALES Y NOTIFICACIONES
+SISTEMA DE ANÁLISIS CONTINUO Y ENVÍO DE SEÑALES
 Maneja:
-- Programación de señales (8:00 AM - 8:00 PM, Lun-Sáb)
-- Mínimo 20-25 señales por día
-- Notificaciones pre-señal
+- Análisis continuo de mercados cada 60 segundos (8:00 AM - 8:00 PM, Lun-Sáb)
+- Envío inmediato de señales cuando efectividad ≥80%
+- Sin límite de señales por día
+- Espera de 5 minutos después de cada señal (verificación de resultado)
+- Notificaciones automáticas
 - Mensajes motivacionales
 - Resúmenes diarios
 - Análisis de rendimiento
@@ -25,7 +27,7 @@ class SignalScheduler:
         self.user_manager = None  # Se configurará externamente
         self.señales_programadas = []
         self.señales_enviadas_hoy = []
-        self.objetivo_señales_diarias = 25
+        self.objetivo_señales_diarias = 999  # Sin límite de señales
         self.mercado_actual = None
         self.bot_telegram = None  # Se configurará externamente
         
@@ -283,13 +285,12 @@ class SignalScheduler:
     
     def calcular_intervalo_señales(self) -> int:
         """
-        Calcula el intervalo entre señales para alcanzar el objetivo diario
+        Calcula el intervalo entre señales
         Horario: 8:00-20:00 = 12 horas = 720 minutos
-        Objetivo: 25 señales = 720/25 = ~29 minutos entre señales
+        Sin límite de señales - intervalo fijo de 20 minutos
         """
-        minutos_operativos = 12 * 60  # 720 minutos
-        intervalo = minutos_operativos // self.objetivo_señales_diarias
-        return max(20, min(60, intervalo))  # Entre 20-60 minutos
+        # Sin límite de señales - intervalo fijo de 20 minutos
+        return 20  # Intervalo fijo de 20 minutos
     
     async def iniciar_dia_trading(self):
         """Inicia el día de trading con mensaje motivacional"""
@@ -359,7 +360,7 @@ class SignalScheduler:
         señales_programadas = []
         hora_actual = hora_inicio
         
-        while hora_actual < hora_fin and len(señales_programadas) < self.objetivo_señales_diarias:
+        while hora_actual < hora_fin:
             # Agregar variación aleatoria al intervalo (±5 minutos)
             variacion = random.randint(-5, 5)
             hora_señal = hora_actual + timedelta(minutes=variacion)
@@ -1879,6 +1880,8 @@ Duplicar tu inversión en la próxima entrada del mismo mercado para recuperar l
             pass
         # Ciclo continuo de análisis
         print("[SignalScheduler] 🔄 Iniciando análisis continuo cada 60 segundos...")
+        print("[SignalScheduler] 📋 Modo: Envío inmediato cuando efectividad ≥80% (sin límite de señales)")
+        print("[SignalScheduler] ⏳ Espera de 5 minutos después de cada señal para verificación de resultado")
         
         while self.running and self.esta_en_horario_operativo():
             ahora = datetime.now()
@@ -1914,8 +1917,8 @@ Duplicar tu inversión en la próxima entrada del mismo mercado para recuperar l
                     señal = await self.ejecutar_analisis_señal()
                     if señal:
                         await self.enviar_señal(señal)
-                        # Esperar 5 minutos después de enviar una señal para no saturar
-                        print("[SignalScheduler] ⏳ Esperando 5 minutos tras enviar señal...")
+                        # Esperar 5 minutos después de enviar señal (tiempo de verificación del resultado)
+                        print("[SignalScheduler] ⏳ Esperando 5 minutos para verificar resultado de señal...")
                         await asyncio.sleep(300)
                 else:
                     print(f"[SignalScheduler] ⚠️ Efectividad insuficiente ({efectividad:.1f}% < {umbral_efectividad}%)")

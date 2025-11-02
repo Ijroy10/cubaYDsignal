@@ -1692,7 +1692,7 @@ Hola **{username}**, soy tu asistente de trading profesional.
 🎯 **¿Qué ofrezco?**
 • Señales de trading de alta efectividad (≥80%)
 • Análisis técnico profesional multi-mercado
-• 20-25 señales diarias (Lun-Sáb, 8AM-8PM)
+• Señales ilimitadas cada 20 minutos (Lun-Sáb, 8AM-8PM)
 • Mensajes motivacionales y seguimiento
 • Resúmenes diarios de rendimiento
 
@@ -2280,9 +2280,9 @@ Hola **{username}**, soy tu asistente de trading profesional.
 • **Timeframes:** 1M, 3M, 5M, 15M
 
 🎯 **OBJETIVOS DIARIOS:**
-• **Meta señales:** 20-25 por día
+• **Señales:** Sin límite (cada 20 min)
 • **Meta efectividad:** ≥80%
-• **Progreso hoy:** {(señales_hoy/22*100):.1f}%
+• **Señales hoy:** {señales_hoy}
 
 🔧 **SISTEMA:**
 • **Uptime:** 99.9%
@@ -3225,7 +3225,7 @@ Hola **{username}**, soy tu asistente de trading profesional.
 Soy un bot de trading profesional que te proporciona señales de alta efectividad para opciones binarias en Quotex.
 
 📊 **CARACTERÍSTICAS PRINCIPALES:**
-• 🎯 20-25 señales diarias (efectividad ≥ 80%)
+• 🎯 Señales ilimitadas cada 20 minutos (efectividad ≥ 80%)
 • 🕰️ Horario operativo: 8:00 AM - 8:00 PM (Lun-Sáb)
 • 📱 Notificaciones automáticas vía Telegram
 • 📈 Análisis técnico en cada señal

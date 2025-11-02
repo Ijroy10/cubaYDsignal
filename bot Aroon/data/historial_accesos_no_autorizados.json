@@ -118,5 +118,37 @@
         "clave_usada": "1108E0030C009D5E",
         "fecha_hora": "2025-10-27 06:33:36",
         "timestamp": "2025-10-27T06:33:36.356464"
+    },
+    {
+        "user_id": "6298739726",
+        "username": "Tahy78",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1664A0A659FB3DBA",
+        "fecha_hora": "2025-11-01 18:03:32",
+        "timestamp": "2025-11-01T18:03:32.299337"
+    },
+    {
+        "user_id": "6128363751",
+        "username": "Alfre",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1664A0A659FB3DBA",
+        "fecha_hora": "2025-11-01 18:13:01",
+        "timestamp": "2025-11-01T18:13:01.958780"
+    },
+    {
+        "user_id": "7135189322",
+        "username": "zoro48291",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1664A0A659FB3DBA",
+        "fecha_hora": "2025-11-01 18:14:17",
+        "timestamp": "2025-11-01T18:14:17.138340"
+    },
+    {
+        "user_id": "1642511083",
+        "username": "JAROLVEGA",
+        "motivo": "no_lista_diaria",
+        "clave_usada": "1664A0A659FB3DBA",
+        "fecha_hora": "2025-11-01 18:22:39",
+        "timestamp": "2025-11-01T18:22:39.268772"
     }
 ]
