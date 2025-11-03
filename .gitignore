@@ -1,0 +1,92 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv
+
+# Archivos de sesión y datos sensibles
+session.json
+*.session
+*.session-journal
+
+# Datos de usuarios y configuración sensible
+data/usuarios.json
+data/historial_accesos_no_autorizados.json
+data/confirmaciones_senal.json
+data/*.json
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+config.json
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Credenciales y tokens
+*token*
+*credentials*
+*secret*
+api_keys.py
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Quotex
+quotex_session/
+*.quotex
+
+# Node modules (si usas alguna herramienta de Node)
+node_modules/
+
+# Archivos de prueba
+test_*.py
+*_test.py
+tests/__pycache__/
