@@ -25,6 +25,8 @@ venv/
 ENV/
 env/
 .venv
+.venv*/
+*venv*/
 
 # Archivos de sesión y datos sensibles
 session.json
