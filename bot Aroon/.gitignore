@@ -56,6 +56,14 @@ vpn_configs/*.ovpn
 vpn_configs/auth.txt
 vpn_configs/credentials.txt
 
+# EXCEPCIÓN: Permitir ProtonVPN Free (para Render)
+!vpn_configs/proton.ovpn
+!vpn_configs/proton_auth.txt
+!vpn_configs/mexico-*.conf
+!vpn_configs/mexico-*.ovpn
+!vpn_configs/singapore-*.conf
+!vpn_configs/singapore-*.ovpn
+
 # Quotex credentials
 quotex_credentials.json
 credentials.json

@@ -5,52 +5,8 @@
             "tipo": "admin",
             "hora_ingreso": "20:10",
             "clave_usada": "ADMIN_ID",
-            "se\u00f1ales_recibidas": 31,
+            "se\u00f1ales_recibidas": 32,
             "es_tardio": false
-        },
-        "6298739726": {
-            "username": "Tahy78",
-            "tipo": "usuario",
-            "hora_ingreso": "18:03",
-            "clave_usada": "1664A0A659FB3DBA",
-            "se\u00f1ales_recibidas": 0,
-            "es_tardio": true,
-            "autorizado_por": "no_lista_diaria",
-            "motivo_autorizacion": "no_lista_diaria",
-            "en_lista_diaria": false
-        },
-        "6128363751": {
-            "username": "Alfre",
-            "tipo": "usuario",
-            "hora_ingreso": "18:13",
-            "clave_usada": "1664A0A659FB3DBA",
-            "se\u00f1ales_recibidas": 0,
-            "es_tardio": true,
-            "autorizado_por": "no_lista_diaria",
-            "motivo_autorizacion": "no_lista_diaria",
-            "en_lista_diaria": false
-        },
-        "7135189322": {
-            "username": "zoro48291",
-            "tipo": "usuario",
-            "hora_ingreso": "18:14",
-            "clave_usada": "1664A0A659FB3DBA",
-            "se\u00f1ales_recibidas": 0,
-            "es_tardio": true,
-            "autorizado_por": "no_lista_diaria",
-            "motivo_autorizacion": "no_lista_diaria",
-            "en_lista_diaria": false
-        },
-        "1642511083": {
-            "username": "JAROLVEGA",
-            "tipo": "usuario",
-            "hora_ingreso": "18:22",
-            "clave_usada": "1664A0A659FB3DBA",
-            "se\u00f1ales_recibidas": 0,
-            "es_tardio": true,
-            "autorizado_por": "no_lista_diaria",
-            "motivo_autorizacion": "no_lista_diaria",
-            "en_lista_diaria": false
         }
     },
     "usuarios_bloqueados": [],
@@ -76,8 +32,8 @@
             "timestamp": "2025-08-11T07:20:51.073277"
         }
     ],
-    "clave_publica_diaria": "1664A0A659FB3DBA",
-    "fecha_clave_actual": "2025-11-01",
+    "clave_publica_diaria": "200F8C713C3A821A",
+    "fecha_clave_actual": "2025-11-03",
     "se\u00f1ales_del_dia": [
         {
             "numero": 1,
@@ -1063,16 +1019,41 @@
             "confirmation_messages": {
                 "5806367733": 849
             }
+        },
+        {
+            "numero": 1,
+            "hora": "19:09",
+            "timestamp": "2025-11-03T19:09:51.445372",
+            "symbol": "TONUSD_otc",
+            "direccion": "CALL",
+            "efectividad": 85,
+            "payout": 85,
+            "validez_minutos": 5,
+            "precio_entrada": 1.55,
+            "detalles_tecnicos": [
+                "\ud83c\udfaf SE\u00d1AL CALL CONFIRMADA",
+                "\ud83d\udcca Efectividad: 85.0%",
+                "\ud83d\udcc8 Tendencia: ALCISTA",
+                "\ud83d\udd04 Aroon: UP=100.0% | DOWN=7.1%",
+                "\u2705 Tipo: 2 Velas Consecutivas"
+            ],
+            "pullback_info": false,
+            "tendencia": "N/A",
+            "volatilidad": "N/A",
+            "resultado": null,
+            "confirmation_messages": {
+                "5806367733": 954
+            }
         }
     ],
     "estadisticas_diarias": {
         "fecha": "2025-08-12",
         "total_usuarios": 20,
         "usuarios_tardios": 14,
-        "se\u00f1ales_enviadas": 31,
+        "se\u00f1ales_enviadas": 32,
         "efectividad_promedio": 0,
         "hora_inicio": null,
         "hora_fin": null
     },
-    "ultima_actualizacion": "2025-11-01T18:22:39.273672"
+    "ultima_actualizacion": "2025-11-03T19:09:51.446262"
 }
