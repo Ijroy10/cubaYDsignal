@@ -32,8 +32,8 @@
             "timestamp": "2025-08-11T07:20:51.073277"
         }
     ],
-    "clave_publica_diaria": "200F8C713C3A821A",
-    "fecha_clave_actual": "2025-11-03",
+    "clave_publica_diaria": "2D0678374140DE00",
+    "fecha_clave_actual": "2025-11-04",
     "se\u00f1ales_del_dia": [
         {
             "numero": 1,
@@ -1055,5 +1055,5 @@
         "hora_inicio": null,
         "hora_fin": null
     },
-    "ultima_actualizacion": "2025-11-03T19:09:51.446262"
+    "ultima_actualizacion": "2025-11-04T08:57:15.011604"
 }

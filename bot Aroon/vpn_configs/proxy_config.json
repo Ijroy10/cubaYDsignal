@@ -1,0 +1,9 @@
+{
+  "tipo": "socks5",
+  "host": "187.63.9.62",
+  "puerto": 63253,
+  "usuario": "",
+  "password": "",
+  "pais": "BR",
+  "descripcion": "Proxy SOCKS5 Brasil - Gratis (sin autenticación)"
+}

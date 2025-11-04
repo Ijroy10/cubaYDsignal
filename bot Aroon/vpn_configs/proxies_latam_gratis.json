@@ -1,0 +1,89 @@
+{
+  "descripcion": "Lista de proxies SOCKS5 gratuitos de Latinoamérica",
+  "actualizacion": "2025-11-04",
+  "fuente": "https://github.com/proxifly/free-proxy-list",
+  "proxies": [
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks5",
+      "host": "187.63.9.62",
+      "puerto": 63253,
+      "usuario": "",
+      "password": "",
+      "prioridad": 1,
+      "nota": "Proxy SOCKS5 Brasil - Sin autenticación"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "170.245.248.45",
+      "puerto": 60606,
+      "usuario": "",
+      "password": "",
+      "prioridad": 2,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 1"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "138.186.133.161",
+      "puerto": 4153,
+      "usuario": "",
+      "password": "",
+      "prioridad": 3,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 2"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "186.216.195.1",
+      "puerto": 4153,
+      "usuario": "",
+      "password": "",
+      "prioridad": 4,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 3"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "170.81.108.153",
+      "puerto": 4153,
+      "usuario": "",
+      "password": "",
+      "prioridad": 5,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 4"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "200.14.57.4",
+      "puerto": 4153,
+      "usuario": "",
+      "password": "",
+      "prioridad": 6,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 5"
+    },
+    {
+      "pais": "BR",
+      "ciudad": "Brasil",
+      "tipo": "socks4",
+      "host": "170.79.153.200",
+      "puerto": 5678,
+      "usuario": "",
+      "password": "",
+      "prioridad": 7,
+      "nota": "Proxy SOCKS4 Brasil - Respaldo 6"
+    }
+  ],
+  "instrucciones": {
+    "uso": "El bot intentará conectar con el proxy de mayor prioridad primero",
+    "actualizacion": "Actualiza esta lista cada semana desde: https://github.com/proxifly/free-proxy-list/tree/main/proxies/countries/BR",
+    "nota": "Proxies gratuitos pueden ser lentos o inestables. Para mejor rendimiento, considera usar Webshare ($10/mes)"
+  }
+}

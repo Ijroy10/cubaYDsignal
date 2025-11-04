@@ -495,8 +495,29 @@ class VPNManager:
                 if self.verificar_conexion_quotex():
                     return True
             
-            # Intentar proxy SOCKS5 desde variables de entorno
+            # Intentar proxy SOCKS5 desde archivo de configuración
             logger.info("[VPN] 🔌 Buscando configuración de proxy SOCKS5...")
+            proxy_config_file = os.path.join(config_dir, 'proxy_config.json')
+            if os.path.exists(proxy_config_file):
+                try:
+                    import json
+                    with open(proxy_config_file, 'r') as f:
+                        proxy_config = json.load(f)
+                    
+                    logger.info(f"[VPN] 📁 Configuración de proxy encontrada: {proxy_config.get('descripcion', 'SOCKS5')}")
+                    proxies = self.conectar_vpn_proxy_socks5(
+                        host=proxy_config.get('host'),
+                        port=proxy_config.get('puerto', 1080),
+                        username=proxy_config.get('usuario'),
+                        password=proxy_config.get('password')
+                    )
+                    if proxies:
+                        if self.verificar_conexion_quotex():
+                            return True
+                except Exception as e:
+                    logger.warning(f"[VPN] ⚠️ Error leyendo proxy_config.json: {e}")
+            
+            # Intentar proxy SOCKS5 desde variables de entorno
             if os.getenv('PROXY_HOST'):
                 logger.info("[VPN] 📁 Configuración de proxy encontrada en variables de entorno")
                 proxies = self.conectar_vpn_proxy_socks5(

@@ -17,6 +17,10 @@ python-dotenv==1.0.0
 colorama==0.4.6
 tqdm==4.66.1
 
+# PROXY SOCKS5 SUPPORT
+requests[socks]==2.32.3
+pysocks==1.7.1
+
 # LOGGING Y MONITOREO
 loguru==0.7.2
 
