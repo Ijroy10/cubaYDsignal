@@ -32,6 +32,7 @@ import logging
 from datetime import datetime
 import pytz
 import socket
+from aiohttp import web
 
 # Configurar el path para imports
 project_root = Path(__file__).parent
@@ -44,6 +45,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 _instance_socket = None
+_health_runner = None
 
 def ensure_single_instance(port: int = 47653) -> socket.socket:
     """Impide instancias duplicadas del bot enlazando un puerto local.
@@ -58,6 +60,27 @@ def ensure_single_instance(port: int = 47653) -> socket.socket:
     except OSError:
         print("❌ Ya hay una instancia del bot ejecutándose. Cierra la otra antes de iniciar.")
         sys.exit(1)
+
+async def iniciar_healthcheck(logger: logging.Logger) -> None:
+    global _health_runner
+    if _health_runner is not None:
+        return
+    try:
+        port = int(os.getenv("PORT", "8080"))
+        app = web.Application()
+
+        async def health(request: web.Request) -> web.Response:
+            return web.Response(text="OK")
+
+        app.router.add_get("/health", health)
+        runner = web.AppRunner(app)
+        await runner.setup()
+        site = web.TCPSite(runner, host="0.0.0.0", port=port)
+        await site.start()
+        _health_runner = runner
+        logger.info("Healthcheck escuchando en %s", port)
+    except Exception as exc:
+        logger.error("No se pudo iniciar healthcheck: %s", exc)
 
 def print_banner():
     """Muestra el banner de inicio del bot"""
@@ -140,6 +163,7 @@ async def main():
     
     # Configurar logging
     logger = configurar_logging()
+    asyncio.create_task(iniciar_healthcheck(logger))
     
     try:
         # Importar módulos principales

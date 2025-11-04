@@ -316,6 +316,66 @@ class MarketManager:
             logger.info("Ya se encuentra conectado a Quotex.")
             return True
 
+        # ============ DETECCIÓN GEOGRÁFICA Y VPN AUTOMÁTICA ============
+        try:
+            from src.utils.vpn_manager import vpn_manager
+            
+            logger.info("[VPN] 🌍 Verificando ubicación geográfica...")
+            
+            # Detectar si estamos en Estados Unidos
+            if vpn_manager.necesita_vpn():
+                logger.warning("[VPN] 🚫 Servidor en Estados Unidos detectado")
+                logger.warning("[VPN] 🔒 Quotex está bloqueado en esta ubicación")
+                logger.info("[VPN] 🔌 Intentando conectar VPN automáticamente...")
+                
+                # Intentar conectar VPN automáticamente
+                vpn_conectada = vpn_manager.auto_conectar()
+                
+                if vpn_conectada:
+                    logger.success("[VPN] ✅ VPN conectada exitosamente")
+                    logger.success("[VPN] 🌍 Nueva ubicación establecida")
+                    
+                    if telegram_bot:
+                        try:
+                            await telegram_bot.notificar_admin_telegram(
+                                "🔒 **VPN Activada Automáticamente**\n\n"
+                                "• Servidor en Estados Unidos detectado\n"
+                                "• VPN conectada para evitar bloqueo de Quotex\n"
+                                "• Conexión segura establecida"
+                            )
+                        except:
+                            pass
+                else:
+                    logger.error("[VPN] ❌ No se pudo conectar VPN")
+                    logger.error("[VPN] 💡 Solución:")
+                    logger.error("[VPN]    1. Coloca archivos .conf (WireGuard) o .ovpn (OpenVPN) en: vpn_configs/")
+                    logger.error("[VPN]    2. O configura un proxy SOCKS5 en el código")
+                    logger.error("[VPN]    3. O usa un servidor fuera de Estados Unidos")
+                    
+                    if telegram_bot:
+                        try:
+                            await telegram_bot.notificar_admin_telegram(
+                                "⚠️ **Advertencia: Servidor en Estados Unidos**\n\n"
+                                "• Quotex está bloqueado en esta ubicación\n"
+                                "• No se pudo activar VPN automáticamente\n"
+                                "• La conexión puede fallar\n\n"
+                                "**Solución:**\n"
+                                "1. Coloca archivos VPN en: `vpn_configs/`\n"
+                                "2. O usa un servidor en Cuba/Latinoamérica"
+                            )
+                        except:
+                            pass
+                    
+                    # Intentar conectar de todos modos (puede fallar)
+                    logger.warning("[VPN] ⚠️ Intentando conectar sin VPN (puede fallar)...")
+            else:
+                logger.success("[VPN] ✅ Ubicación permitida - No se necesita VPN")
+                
+        except Exception as e:
+            logger.error(f"[VPN] ❌ Error en verificación geográfica: {e}")
+            logger.warning("[VPN] ⚠️ Continuando sin VPN...")
+        # ============================================================
+
         logger.info(f"[Quotex] Intentando conectar con usuario: {email}")
         logger.info("Conectando vía WebSocket (pyquotex - sin navegador)...")
         

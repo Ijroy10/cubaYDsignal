@@ -397,11 +397,30 @@ class SignalScheduler:
                 # Obtener precio actual de entrada
                 precio_entrada = df['close'].iloc[-1] if df is not None and len(df) > 0 else None
                 
+                # Calcular hora de entrada (próxima vela M5)
+                from datetime import timedelta
+                ahora = datetime.now()
+                minuto_actual = ahora.minute
+                segundo_actual = ahora.second
+                
+                # Calcular minutos hasta la próxima vela M5
+                minutos_hasta_proxima_vela = 5 - (minuto_actual % 5)
+                if minutos_hasta_proxima_vela == 0 and segundo_actual > 0:
+                    # Si estamos en un múltiplo de 5 pero ya pasaron segundos, ir a la siguiente vela M5
+                    minutos_hasta_proxima_vela = 5
+                elif minutos_hasta_proxima_vela == 0:
+                    # Si estamos exactamente al inicio de una vela M5, usar esa
+                    minutos_hasta_proxima_vela = 0
+                
+                # Calcular hora de entrada (apertura de la próxima vela M5)
+                hora_entrada = ahora.replace(second=0, microsecond=0) + timedelta(minutes=minutos_hasta_proxima_vela)
+                
                 # Crear datos de la señal
                 señal = {
                     'numero': len(self.señales_enviadas_hoy) + 1,
                     'hora': datetime.now().strftime('%H:%M'),
                     'timestamp': datetime.now().isoformat(),
+                    'hora_entrada': hora_entrada,  # Hora exacta para ejecutar la operación
                     'symbol': self.mercado_actual['symbol'],
                     'direccion': decision,
                     'efectividad': efectividad,
@@ -2055,29 +2074,37 @@ Duplicar tu inversión en la próxima entrada del mismo mercado para recuperar l
                 print(f"[Trading] ⚠️ Efectividad muy baja: {efectividad}% < {umbral_efectividad}%")
                 return
             
-            # ESPERAR HASTA LA APERTURA DE LA PRÓXIMA VELA DE 5 MINUTOS
+            # ESPERAR HASTA LA HORA DE ENTRADA ESPECIFICADA EN LA SEÑAL
             from datetime import datetime, timedelta
             import asyncio
             
             ahora = datetime.now()
-            minutos_actuales = ahora.minute
-            segundos_actuales = ahora.second
             
-            # Calcular próxima vela de 5 minutos (00, 05, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)
-            proxima_vela_minuto = ((minutos_actuales // 5) + 1) * 5
-            if proxima_vela_minuto >= 60:
-                proxima_vela_minuto = 0
-                proxima_vela = ahora.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
-            else:
-                proxima_vela = ahora.replace(minute=proxima_vela_minuto, second=0, microsecond=0)
+            # Obtener hora de entrada de la señal (ya calculada al crear la señal)
+            hora_entrada = señal.get('hora_entrada')
+            
+            # Si no existe hora_entrada en la señal (compatibilidad con señales antiguas), calcularla
+            if not hora_entrada or not isinstance(hora_entrada, datetime):
+                minutos_actuales = ahora.minute
+                segundos_actuales = ahora.second
+                
+                # Calcular próxima vela de 5 minutos (00, 05, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)
+                proxima_vela_minuto = ((minutos_actuales // 5) + 1) * 5
+                if proxima_vela_minuto >= 60:
+                    proxima_vela_minuto = 0
+                    hora_entrada = ahora.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+                else:
+                    hora_entrada = ahora.replace(minute=proxima_vela_minuto, second=0, microsecond=0)
             
             # Calcular tiempo de espera
-            tiempo_espera = (proxima_vela - ahora).total_seconds()
+            tiempo_espera = (hora_entrada - ahora).total_seconds()
             
             if tiempo_espera > 0:
-                print(f"[Trading] ⏰ Esperando {tiempo_espera:.1f} segundos hasta apertura de vela ({proxima_vela.strftime('%H:%M:%S')})")
+                print(f"[Trading] ⏰ Esperando {tiempo_espera:.1f} segundos hasta apertura de vela ({hora_entrada.strftime('%H:%M:%S')})")
                 await asyncio.sleep(tiempo_espera)
                 print(f"[Trading] ✅ Apertura de vela alcanzada - Ejecutando operación")
+            else:
+                print(f"[Trading] ⚠️ Tiempo de espera negativo ({tiempo_espera:.1f}s) - Ejecutando inmediatamente")
             
             print(f"[Trading] 🎯 Ejecutando operación automática:")
             print(f"[Trading]    Modo: {modo}")
