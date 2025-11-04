@@ -65,6 +65,7 @@ vpn_configs/credentials.txt
 !vpn_configs/singapore-*.ovpn
 !vpn_configs/proxy_config.json
 !vpn_configs/proxies_latam_gratis.json
+!vpn_configs/proxies_latam_completo.json
 
 # Quotex credentials
 quotex_credentials.json

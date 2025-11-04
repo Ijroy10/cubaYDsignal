@@ -1,0 +1,202 @@
+{
+  "descripcion": "Lista completa de proxies gratuitos de Latinoamérica (Brasil, México, Argentina)",
+  "actualizacion": "2025-11-04 15:15",
+  "fuente": "https://github.com/proxifly/free-proxy-list",
+  "total_proxies": 25,
+  "paises": ["BR", "MX", "AR"],
+  "proxies": {
+    "brasil": [
+      {
+        "tipo": "socks5",
+        "host": "187.63.9.62",
+        "puerto": 63253,
+        "prioridad": 1,
+        "nota": "SOCKS5 Brasil - Principal"
+      },
+      {
+        "tipo": "socks4",
+        "host": "170.245.248.45",
+        "puerto": 60606,
+        "prioridad": 2,
+        "nota": "SOCKS4 Brasil"
+      },
+      {
+        "tipo": "socks4",
+        "host": "138.186.133.161",
+        "puerto": 4153,
+        "prioridad": 3,
+        "nota": "SOCKS4 Brasil"
+      },
+      {
+        "tipo": "socks4",
+        "host": "186.216.195.1",
+        "puerto": 4153,
+        "prioridad": 4,
+        "nota": "SOCKS4 Brasil"
+      },
+      {
+        "tipo": "socks4",
+        "host": "170.81.108.153",
+        "puerto": 4153,
+        "prioridad": 5,
+        "nota": "SOCKS4 Brasil"
+      },
+      {
+        "tipo": "socks4",
+        "host": "200.14.57.4",
+        "puerto": 4153,
+        "prioridad": 6,
+        "nota": "SOCKS4 Brasil"
+      },
+      {
+        "tipo": "socks4",
+        "host": "170.79.153.200",
+        "puerto": 5678,
+        "prioridad": 7,
+        "nota": "SOCKS4 Brasil"
+      }
+    ],
+    "mexico": [
+      {
+        "tipo": "socks4",
+        "host": "187.216.144.170",
+        "puerto": 5678,
+        "prioridad": 8,
+        "nota": "SOCKS4 México"
+      },
+      {
+        "tipo": "http",
+        "host": "148.233.136.213",
+        "puerto": 443,
+        "prioridad": 9,
+        "nota": "HTTP México - HTTPS"
+      },
+      {
+        "tipo": "http",
+        "host": "187.217.194.178",
+        "puerto": 443,
+        "prioridad": 10,
+        "nota": "HTTP México - HTTPS"
+      },
+      {
+        "tipo": "http",
+        "host": "187.251.224.167",
+        "puerto": 8081,
+        "prioridad": 11,
+        "nota": "HTTP México"
+      },
+      {
+        "tipo": "http",
+        "host": "186.96.50.113",
+        "puerto": 999,
+        "prioridad": 12,
+        "nota": "HTTP México"
+      },
+      {
+        "tipo": "http",
+        "host": "38.194.246.34",
+        "puerto": 999,
+        "prioridad": 13,
+        "nota": "HTTP México"
+      },
+      {
+        "tipo": "http",
+        "host": "189.196.18.150",
+        "puerto": 999,
+        "prioridad": 14,
+        "nota": "HTTP México"
+      },
+      {
+        "tipo": "http",
+        "host": "45.167.93.24",
+        "puerto": 999,
+        "prioridad": 15,
+        "nota": "HTTP México"
+      }
+    ],
+    "argentina": [
+      {
+        "tipo": "socks5",
+        "host": "170.233.30.33",
+        "puerto": 4153,
+        "prioridad": 16,
+        "nota": "SOCKS5 Argentina - Río Gallegos"
+      },
+      {
+        "tipo": "socks4",
+        "host": "190.122.144.23",
+        "puerto": 5678,
+        "prioridad": 17,
+        "nota": "SOCKS4 Argentina"
+      },
+      {
+        "tipo": "socks4",
+        "host": "181.28.137.18",
+        "puerto": 5678,
+        "prioridad": 18,
+        "nota": "SOCKS4 Argentina"
+      },
+      {
+        "tipo": "socks4",
+        "host": "190.104.249.187",
+        "puerto": 4145,
+        "prioridad": 19,
+        "nota": "SOCKS4 Argentina"
+      },
+      {
+        "tipo": "http",
+        "host": "186.65.109.21",
+        "puerto": 443,
+        "prioridad": 20,
+        "nota": "HTTP Argentina - HTTPS"
+      },
+      {
+        "tipo": "http",
+        "host": "209.13.186.20",
+        "puerto": 443,
+        "prioridad": 21,
+        "nota": "HTTP Argentina - HTTPS"
+      },
+      {
+        "tipo": "http",
+        "host": "45.178.55.2",
+        "puerto": 999,
+        "prioridad": 22,
+        "nota": "HTTP Argentina"
+      },
+      {
+        "tipo": "http",
+        "host": "186.123.26.79",
+        "puerto": 8080,
+        "prioridad": 23,
+        "nota": "HTTP Argentina"
+      },
+      {
+        "tipo": "http",
+        "host": "200.70.35.2",
+        "puerto": 8080,
+        "prioridad": 24,
+        "nota": "HTTP Argentina"
+      },
+      {
+        "tipo": "http",
+        "host": "187.102.219.32",
+        "puerto": 999,
+        "prioridad": 25,
+        "nota": "HTTP Argentina"
+      }
+    ]
+  },
+  "sitios_actualizacion": {
+    "proxifly_brasil": "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/BR/data.json",
+    "proxifly_mexico": "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/MX/data.json",
+    "proxifly_argentina": "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/AR/data.json",
+    "proxyscrape_mexico": "https://proxyscrape.com/free-proxy-list/mexico",
+    "spys_one": "https://spys.one/en/socks-proxy-list/"
+  },
+  "instrucciones": {
+    "uso": "El bot probará proxies en orden de prioridad",
+    "actualizacion": "Actualiza esta lista semanalmente desde las fuentes indicadas",
+    "nota": "Proxies gratuitos pueden ser lentos. Para producción considera Webshare ($10/mes)"
+  }
+}
